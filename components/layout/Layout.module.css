@@ -13,6 +13,7 @@
   justify-content: flex-start;
   min-height: 100vh;
   position: relative;
+  padding: 15px;
 }
 
 .header {
