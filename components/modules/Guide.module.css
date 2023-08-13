@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.container a{
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px -10px rgb(0, 0, 0,0.9);
+    background-color: #A076F9;
+    color: #fff;
+    font-weight: 750;
+}
