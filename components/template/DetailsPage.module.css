@@ -1,0 +1,166 @@
+.container {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  .container h2 {
+    border-bottom: 5px solid #6528F7;
+    width: fit-content;
+    margin-bottom: 50px;
+    font-size: 1.9rem;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner img {
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  
+  .banner h3 {
+    font-size: 1.3rem;
+    color: #6528F7;
+  }
+  
+  .banner span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .location {
+    color: grey;
+    margin: 20px 0 40px;
+  }
+  
+  .discount {
+    background-color: #ed4133;
+    color: white;
+    padding: 10px 25px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .introduction {
+    margin: 60px 0;
+    padding: 0 30px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  
+  .details {
+    margin-bottom: 60px;
+  }
+  
+  .details h4 {
+    font-size: 1.5rem;
+    color: #6528F7;
+    margin: 24px 0;
+  }
+  
+  .details ul {
+    list-style: none;
+  }
+  
+  .details li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .details li::before {
+    content: "• ";
+    color: #6528F7;
+  }
+  
+  .details p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 10px;
+  }
+  
+  .details span {
+    color: grey;
+  }
+  
+  .recipe {
+    margin-bottom: 100px;
+  }
+  
+  .recipe h4 {
+    font-size: 1.5rem;
+    color: #6528F7;
+    margin: 24px 0;
+  }
+  
+  .recipe div {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: justify;
+  }
+  
+  .recipe span {
+    font-size: 2rem;
+    margin: 0 15px 0 5px;
+  }
+  
+  .odd {
+    background-color: #A076F9;
+    color: #fff;
+
+  }
+  
+  .even {
+    background-color: #6528F7;
+    color: #fff;
+  }
+  
+  .container button {
+    width: 100%;
+    border: none;
+    background-color: #6528F7;
+    color: white;
+    padding: 15px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+  
+  @media (min-width: 768px) {
+   .banner{
+    flex-direction: row;
+    justify-content: flex-start;
+   }
+   .banner img{
+    width: 55%;
+    margin-right: 60px;
+   }
+   .banner div{
+    margin-top: 0;
+    
+   }
+  }
+  
+  @media (min-width: 1278px) {
+    
+  }
+  
