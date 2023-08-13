@@ -1,0 +1,87 @@
+.container {
+  width: 95%;
+  padding: 4%;
+  box-shadow: 0 0 20px -10px rgb(0, 0, 0, 0.8);
+  position: relative;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+.container img {
+  width: 100%;
+}
+
+.name {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name > p {
+  color: #6528f7;
+  font-size: 17px;
+  font-weight: 700;
+}
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.discount {
+  color: red;
+}
+.badge {
+  background-color: red;
+  display: flex;
+  width: 50px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.linkcontainer{
+    padding: 10px 0px;
+}
+.link{
+    padding: 10px 20px;
+    background-color: #a076f9;
+    color: #fff;
+    font-weight: 650;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 40%;
+    margin: 5%;
+    padding: 2%;
+  }
+  .badge {
+    top: 15px;
+  left: 15px;
+  }
+}
+@media only screen and (min-width: 1278px) {
+  .container {
+    width: 28%;
+    margin: 2.5%;
+    padding: 1%;
+  }
+  .badge {
+    top: 25px;
+    left: 25px;
+  }
+}
