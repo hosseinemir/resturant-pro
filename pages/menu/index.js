@@ -11,7 +11,7 @@ export default function index({data}) {
 
 export async function getStaticProps(){
 
-    const res = await fetch('https://resturant-api-seven.vercel.app/data');
+    const res = await fetch(`${process.env.BASE_URL}/data`);
     const data = await res.json();
 
 
