@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subcon{width: 100%;}
+.select{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.select select,.select button{
+    width: 190px;
+    padding: 10px 10px;
+    margin:10px 5px;
+    border-radius: 4px;
+    color: #6528F7;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    box-shadow:2px 2px  20px -6px rgb(0, 0, 0,0.9);
+}
+.select button{
+    background-color: #6528F7;
+    color: #fff;
+}
+.cardcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .select{
+        flex-direction: row;
+    }
+    .cardcontainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 1278px) {
+  
+}

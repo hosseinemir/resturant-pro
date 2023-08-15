@@ -11,12 +11,12 @@ export default function index({data}) {
 
 export async function getStaticProps(){
 
-    const res = await fetch('http://localhost:3001/data');
+    const res = await fetch('https://resturant-api-seven.vercel.app/data');
     const data = await res.json();
 
 
     return{
       props:{data,},
-      revalidate:10,
+      revalidate:1*60*60,
     }
   }
