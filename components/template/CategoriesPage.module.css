@@ -16,7 +16,7 @@
 }
 .select select,.select button{
     width: 190px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     margin:10px 5px;
     border-radius: 4px;
     color: #6528F7;
@@ -28,6 +28,7 @@
 .select button{
     background-color: #6528F7;
     color: #fff;
+    padding: 10px 10px;
 }
 .cardcontainer{
     width: 100%;
